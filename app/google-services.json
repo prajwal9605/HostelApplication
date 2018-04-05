@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "840546430708",
+    "firebase_url": "https://hostel-application-100.firebaseio.com",
+    "project_id": "hostel-application-100",
+    "storage_bucket": "hostel-application-100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840546430708:android:bdadbe2decab2473",
+        "android_client_info": {
+          "package_name": "com.example.prajwalkulkarni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCcIyY6M6ajFMYtO4DQTjwPCE3_W6Gmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840546430708:android:ec53f8f5c477811d",
+        "android_client_info": {
+          "package_name": "com.example.prajwalkulkarni.hostelapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840546430708-r3aqtvgo9af1054gpsjv6fvqod62iskm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prajwalkulkarni.hostelapplication",
+            "certificate_hash": "bd65b78ead346f5c61706e4503e53c62ae9572d0"
+          }
+        },
+        {
+          "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCcIyY6M6ajFMYtO4DQTjwPCE3_W6Gmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

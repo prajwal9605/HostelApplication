@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/complaints" android:textSize="20sp" android:title="Complaints" android:icon="@mipmap/ic_rate_review_black_24dp"/>
+    <item android:id="@+id/mess" android:textSize="20sp" android:title="Mess" android:icon="@mipmap/cutlery"/>
+    <item android:id="@+id/bluebook" android:textSize="20sp" android:title="Blue Book" android:icon="@mipmap/ic_book_black_24dp"/>
+    <item android:id="@+id/notice" android:textSize="22sp" android:title="Notice" android:icon="@mipmap/ic_announcement_black_24dp"/>
+    <item android:id="@+id/rules" android:textSize="22sp" android:title="Rules" android:icon="@mipmap/rules"/>
+    <item android:id="@+id/logout" android:textSize="22sp" android:title="Log Out" android:icon="@mipmap/ic_exit_to_app_black_24dp"/>
+</menu>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hostel Application</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="spinner_title">Select Category</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_main2">StudentActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="branch">
+        <item>Civil</item>
+        <item>Mechanical</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>ISE</item>
+    </string-array>
+    <string-array name="block">
+        <item>NH-1</item>
+        <item>NH-2</item>
+        <item>NH-3</item>
+        <item>MH</item>
+    </string-array>
+    <integer-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
