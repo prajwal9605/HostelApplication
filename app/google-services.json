@@ -1,27 +1,115 @@
 {
   "project_info": {
-    "project_number": "840546430708",
-    "firebase_url": "https://hostel-application-100.firebaseio.com",
-    "project_id": "hostel-application-100",
-    "storage_bucket": "hostel-application-100.appspot.com"
+    "project_number": "46744018232",
+    "firebase_url": "https://hostel-application-e2b7b.firebaseio.com",
+    "project_id": "hostel-application-e2b7b",
+    "storage_bucket": "hostel-application-e2b7b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:840546430708:android:bdadbe2decab2473",
+        "mobilesdk_app_id": "1:46744018232:android:ca7b08f504a3f103",
         "android_client_info": {
-          "package_name": "com.example.prajwalkulkarni"
+          "package_name": "com.example.admin.myproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+          "client_id": "46744018232-22smmbfn34tqpgelntj0gt73acjf64pj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.myproject",
+            "certificate_hash": "c0d440f48d2991b14ee0aa6daf59f9c7bc2125a7"
+          }
+        },
+        {
+          "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDVCcIyY6M6ajFMYtO4DQTjwPCE3_W6Gmo"
+          "current_key": "AIzaSyBg8h8Tcc7_wPZR5g2YZYjuWHrli3Pxszk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46744018232:android:8471a2c1192cba23",
+        "android_client_info": {
+          "package_name": "com.example.prajwalkulkarni.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46744018232-5mcledco72p378t6dugo5bfvnceg2anf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prajwalkulkarni.demoapp",
+            "certificate_hash": "bd65b78ead346f5c61706e4503e53c62ae9572d0"
+          }
+        },
+        {
+          "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8h8Tcc7_wPZR5g2YZYjuWHrli3Pxszk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46744018232:android:ec53f8f5c477811d",
+        "android_client_info": {
+          "package_name": "com.example.prajwalkulkarni.hostelapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8h8Tcc7_wPZR5g2YZYjuWHrli3Pxszk"
         }
       ],
       "services": {
@@ -39,28 +127,28 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:840546430708:android:ec53f8f5c477811d",
+        "mobilesdk_app_id": "1:46744018232:android:e679ac6cb03d0dd7",
         "android_client_info": {
-          "package_name": "com.example.prajwalkulkarni.hostelapplication"
+          "package_name": "com.example.saiprasadk.demoapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "840546430708-r3aqtvgo9af1054gpsjv6fvqod62iskm.apps.googleusercontent.com",
+          "client_id": "46744018232-h70852jnlut3nc7vkqe0mp8mstbe4njp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.prajwalkulkarni.hostelapplication",
-            "certificate_hash": "bd65b78ead346f5c61706e4503e53c62ae9572d0"
+            "package_name": "com.example.saiprasadk.demoapp",
+            "certificate_hash": "d0dae485aa11f87761a7ddb4b51b45a86673f179"
           }
         },
         {
-          "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+          "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDVCcIyY6M6ajFMYtO4DQTjwPCE3_W6Gmo"
+          "current_key": "AIzaSyBg8h8Tcc7_wPZR5g2YZYjuWHrli3Pxszk"
         }
       ],
       "services": {
@@ -71,10 +159,41 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "840546430708-m3kjkbap48tutl7r1n44phq0e44g7p4p.apps.googleusercontent.com",
+              "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46744018232:android:d45c2a1f92058ba5",
+        "android_client_info": {
+          "package_name": "com.example.saiprasadk.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46744018232-058l5grls1p1j5p0gmvdsdfribu4vrdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8h8Tcc7_wPZR5g2YZYjuWHrli3Pxszk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

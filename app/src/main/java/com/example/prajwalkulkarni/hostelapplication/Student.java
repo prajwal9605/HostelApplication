@@ -12,15 +12,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Student extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     TextView dname,details;
     SharedPreferences UserInfo;
     FirebaseAuth firebaseAuth;
+    FirebaseUser user;
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +37,7 @@ public class Student extends AppCompatActivity
         setContentView(R.layout.activity_student);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        databaseReference= FirebaseDatabase.getInstance().getReference("Users");
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -38,14 +48,32 @@ public class Student extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        View header=navigationView.getHeaderView(0);
+        dname=(TextView)header.findViewById(R.id.name);
+        details=(TextView)header.findViewById(R.id.details);
         UserInfo=getSharedPreferences("User", Context.MODE_PRIVATE);
         firebaseAuth=FirebaseAuth.getInstance();
+        user=firebaseAuth.getCurrentUser();
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot userSnapShot : dataSnapshot.getChildren()) {
+                    UserPersonal userPersonal = userSnapShot.getValue(UserPersonal.class);
+                    if(userPersonal.getEmail().equals(user.getEmail())){
+                        dname.setText(userPersonal.getName());
+                        details.setText(userPersonal.getUsn()+" "+userPersonal.getBlock()+" "+userPersonal.getRoom());
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
-        /*dname=(TextView)findViewById(R.id.name);
-        details=(TextView)findViewById(R.id.details);
-        dname.setText(UserInfo.getString("name",""));
-        details.setText(UserInfo.getString("USN","")+" "+UserInfo.getString("Block","")+" "+UserInfo.getInt("Room",0));*/
+
 
     @Override
     public void onBackPressed() {
@@ -85,6 +113,8 @@ public class Student extends AppCompatActivity
                 break;
             case R.id.mess:fragment = new Mess();
                 break;
+            case R.id.notice:fragment =new Display();
+                 break;
 
             case R.id.logout:
                 firebaseAuth.signOut();
